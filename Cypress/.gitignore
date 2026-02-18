@@ -1,0 +1,8 @@
+node_modules/
+cypress/videos/
+cypress/screenshots/
+cypress/reports/
+cypress/fixtures/
+cypress/support/commands.js
+cypress/plugins/index.js
+cypress.json    

@@ -1,0 +1,23 @@
+What these tests do:
+
+Page load test: Ensure the blog homepage loads and has correct headings.
+
+Post listing test: Check that posts are displayed with titles and links.
+
+Navigation test: Click on a post and verify the content page loads.
+
+Pagination / load more test: Ensure more posts can be loaded.
+
+Search test: Verify search functionality returns results.
+
+5️⃣ Documentation for your submission
+
+Website chosen: https://culture.ee/en/blog/
+
+Reason: Blog posts must be readable, navigable, and searchable. Testing ensures content accessibility and UX.
+
+Test goals: Verify homepage loads, posts are listed, individual posts can be opened, pagination works, and search functionality is functional.
+
+Issues handled: Waited for elements to load using Cypress’ implicit waits (cy.get) and conditional checks for optional features like “Load more.”
+
+Comments: Each it() block contains comments explaining the purpose of the test.
